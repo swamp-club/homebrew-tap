@@ -1,27 +1,27 @@
 class Swamp < Formula
   desc "AI Native Automation CLI"
   homepage "https://swamp.club"
-  version "20260508.124923.0-sha.3a85e9ed"
+  version "20260508.130518.0-sha.922af81d"
 
   on_macos do
     on_intel do
       url "https://artifacts.systeminit.com/swamp/#{version}/binary/darwin/x86_64/swamp-#{version}-binary-darwin-x86_64.tar.gz"
-      sha256 "3007ab5dceb974ca3649018099c609d589d95f065d723427d8361a45560cad68"
+      sha256 "fd3bbac25c0a42890861189c9c3666999ba4477fce7b7352a61ee04e035a2260"
     end
     on_arm do
       url "https://artifacts.systeminit.com/swamp/#{version}/binary/darwin/aarch64/swamp-#{version}-binary-darwin-aarch64.tar.gz"
-      sha256 "71b5cf31cd2042d144f085e3e29cf0d92927d6a78eff480606fe0cade528da12"
+      sha256 "1d297f232057385839d12b7270766abaefe46281460a1d2e2f2e14684ae0ee7a"
     end
   end
 
   on_linux do
     on_intel do
       url "https://artifacts.systeminit.com/swamp/#{version}/binary/linux/x86_64/swamp-#{version}-binary-linux-x86_64.tar.gz"
-      sha256 "faf07611846d6110e331a430bc31610d83d47e476357dccb14c5c9fc75c29c01"
+      sha256 "deeb4ec4dfbd69020d82e7318a195ef09a8f83bb9f10e7636bc94915f48edb69"
     end
     on_arm do
       url "https://artifacts.systeminit.com/swamp/#{version}/binary/linux/aarch64/swamp-#{version}-binary-linux-aarch64.tar.gz"
-      sha256 "3590ae566c32b447e71fbc9652a520d9f732046002c7eff2e689d6e942892748"
+      sha256 "14ac691329eff3522bbe060678fc47f5449a85c342a3043da4142fee06c3139f"
     end
   end
 

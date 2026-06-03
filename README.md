@@ -1,6 +1,6 @@
 # Homebrew Tap for Swamp
 
-Official [Homebrew](https://brew.sh) tap for [swamp](https://github.com/systeminit/swamp), the AI Native Automation CLI.
+Official [Homebrew](https://brew.sh) tap for [swamp](https://github.com/swamp-club/swamp), the AI Native Automation CLI.
 
 ## Install
 
@@ -17,7 +17,7 @@ brew upgrade swamp
 
 ## How it works
 
-This tap is updated automatically on every [swamp release](https://github.com/systeminit/swamp/releases). Binaries are downloaded from `artifacts.systeminit.com`.
+This tap is updated automatically on every [swamp release](https://github.com/swamp-club/swamp/releases). Binaries are downloaded from `artifacts.swamp-club.com`.
 
 ## Supported platforms
 
@@ -30,12 +30,12 @@ This tap is updated automatically on every [swamp release](https://github.com/sy
 
 ## Alternative installation methods
 
-- **Install script:** `curl -fsSL https://swamp.club/install.sh | sh`
-- **Direct download:** [GitHub Releases](https://github.com/systeminit/swamp/releases)
+- **Install script:** `curl -fsSL https://swamp-club.com/install.sh | sh`
+- **Direct download:** [GitHub Releases](https://github.com/swamp-club/swamp/releases)
 - **Built-in updater:** `swamp update`
 
 ## Links
 
-- [swamp on GitHub](https://github.com/systeminit/swamp)
-- [swamp.club](https://swamp.club)
+- [swamp on GitHub](https://github.com/swamp-club/swamp)
+- [swamp-club.com](https://swamp-club.com)
 - [Discord](https://discord.gg/swamp-club)

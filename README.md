@@ -5,7 +5,7 @@ Official [Homebrew](https://brew.sh) tap for [swamp](https://github.com/swamp-cl
 ## Install
 
 ```bash
-brew tap systeminit/tap
+brew tap swamp-club/tap
 brew install swamp
 ```
 

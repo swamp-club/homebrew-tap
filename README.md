@@ -5,7 +5,16 @@ Official [Homebrew](https://brew.sh) tap for [swamp](https://github.com/swamp-cl
 ## Install
 
 ```bash
+brew install swamp-club/tap/swamp
+```
+
+Using the fully qualified name taps `swamp-club/tap` and marks the `swamp` formula as trusted in one step. Homebrew 7 and later refuse to load formulae from third-party taps that haven't been trusted, so a plain `brew install swamp` after `brew tap swamp-club/tap` fails with `Refusing to load formula swamp-club/tap/swamp from untrusted tap`.
+
+To trust the whole tap instead:
+
+```bash
 brew tap swamp-club/tap
+brew trust swamp-club/tap
 brew install swamp
 ```
 
